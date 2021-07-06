@@ -1,0 +1,6 @@
+{
+  "version": 2,
+  "scope": "deepsoul",
+  "regions": ["bru1"],
+  "public": true
+}
