@@ -91,3 +91,6 @@ sw.*
 
 .vercel
 
+# certificates files
+env/cert
+
