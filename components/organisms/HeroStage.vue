@@ -68,7 +68,7 @@ export default {
   },
   methods: {
     goToAnchor() {
-      this.$vuetify.goTo(`#${this.blok.anchor}`);
+      this.$vuetify.goTo(`#${this.blok.gotToAnchor}`);
     },
   },
   mounted() {
