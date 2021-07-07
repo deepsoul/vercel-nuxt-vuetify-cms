@@ -1,5 +1,5 @@
 <template>
-  <VContainer>
+  <VContainer v-editable="blok">
     <VRow>
       <VCol><Headline :headline="blok.headline" /></VCol>
     </VRow>

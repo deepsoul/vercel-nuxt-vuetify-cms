@@ -8,7 +8,6 @@ export default {
   // Target: https://go.nuxtjs.dev/config-target
   // target: 'static',
 
-  mode: 'universal',
   /*
    ** Nuxt target
    ** See https://nuxtjs.org/api/configuration-target
@@ -83,8 +82,8 @@ export default {
     [
       'storyblok-nuxt',
       {
-        //accessToken: '9y6VapMPfrJBXi1TeMSfVwtt', // ONLY FOR PREVIEW localhost & CMS
-        accessToken: 'RQJhaPVLA2QYy4Io84A9Qwtt', // STATIC SITES
+        accessToken: '9y6VapMPfrJBXi1TeMSfVwtt', // ONLY FOR PREVIEW localhost & CMS
+        // accessToken: 'RQJhaPVLA2QYy4Io84A9Qwtt', // STATIC SITES
         // accessToken: getStoryblokToken(isDev),
         cacheProvider: 'memory',
         timeout: 5000,

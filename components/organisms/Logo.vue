@@ -1,8 +1,14 @@
 <template>
   <VRow>
     <VCol class="d-flex justify-center mt-8" justify-center align-center>
-      <img :src="blok.image.filename" height="200px" alt=""
-    /></VCol>
+      <VImg
+        lazy-src="https://picsum.photos/id/11/10/6"
+        max-height="150"
+        max-width="250"
+        :src="blok.image.filename"
+        alt=""
+      />
+    </VCol>
   </VRow>
 </template>
 <script>

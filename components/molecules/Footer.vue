@@ -19,7 +19,7 @@
         justify-center
         align-center
       >
-        <img src="/images/the-bohemians-logo.svg" height="200px" alt=""
+        <img src="/images/icon.png" height="200px" alt=""
       /></VCol>
       <VCol
         cols="12"

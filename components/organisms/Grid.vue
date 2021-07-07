@@ -1,9 +1,9 @@
 <template>
   <section class="grey lighten-3">
     <div class="py-12"></div>
-    <VContainer class="text-center">
-      <h2 class="display-2 font-weight-bold mb-3 text-center">
-        VUETIFY FEATURES
+    <VContainer class="text-center" v-editable="blok">
+      <h2 class="display-2 text-uppercase font-weight-bold mb-3 text-center">
+        {{ blok.headline }}
       </h2>
 
       <VResponsive class="mx-auto mb-12" width="56">
@@ -11,7 +11,7 @@
 
         <VDivider></VDivider>
       </VResponsive>
-      <VRow v-editable="blok">
+      <VRow>
         <component
           :is="blokItem.component"
           v-for="blokItem in blok.columns"

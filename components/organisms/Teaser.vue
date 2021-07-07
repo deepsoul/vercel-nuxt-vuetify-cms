@@ -1,9 +1,9 @@
 <template>
-  <VContainer>
+  <VContainer v-editable="blok">
     <VRow>
       <VCol>
-        <div>{{ blok.headline }}</div></VCol
-      >
+        <div>{{ blok.headline }}</div>
+      </VCol>
     </VRow>
   </VContainer>
 </template>
