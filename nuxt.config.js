@@ -82,8 +82,8 @@ export default {
     [
       'storyblok-nuxt',
       {
-        accessToken: '9y6VapMPfrJBXi1TeMSfVwtt', // ONLY FOR PREVIEW localhost & CMS
-        // accessToken: 'RQJhaPVLA2QYy4Io84A9Qwtt', // STATIC SITES
+        //accessToken: '9y6VapMPfrJBXi1TeMSfVwtt', // ONLY FOR PREVIEW localhost & CMS
+        accessToken: 'RQJhaPVLA2QYy4Io84A9Qwtt', // STATIC SITES
         // accessToken: getStoryblokToken(isDev),
         cacheProvider: 'memory',
         timeout: 5000,
